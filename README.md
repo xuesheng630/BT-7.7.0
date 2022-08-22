@@ -16,6 +16,11 @@ unzip LinuxPanel-7.7.0.zip
 ```
 cd panel
 ```
-
-
+```
+bash update.sh
+```
++ ### 执行以下脚本，解决强制登录宝塔账号提醒：
+```
+rm -f /www/server/panel/data/bind.pl
+```
 
